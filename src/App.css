@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #5ca55c;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.App-header a {
+  color: white;
+}
+.linkButton, button {
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #222;
+  color: #fff;
+  padding: 5px 15px;
+  outline: none;
+  border: 1px solid #5ca55c;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 2px;
+}
+.linkButton:hover, button:hover {
+  border-color: #222;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.todoItem {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.todoItem.completed .todoTitle {
+  text-decoration: line-through;
+}
+
+.todoItem .todoTitle {
+  float: left;
+}
+
+.todoItem .todoButtons {
+  float: right;
+}
+
+input {
+  padding: 5px;
+  width: 300px;
+}
